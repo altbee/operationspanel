@@ -1,0 +1,1279 @@
+{
+  "error": {
+    "notFound": {
+      "title": "الصفحة غير موجودة",
+      "message": "عذرا الصفحة المطلوبة لم يتم ايجادها."
+    },
+    "unknown": {
+      "title": "خطأ غير معروف",
+      "message": "عذرًا ، لم نتمكن من معالجة هذا الخطأ. الرجاء معاودة المحاولة في وقت لاحق."
+    },
+    "forbidden": {
+      "title": "ممنوع",
+      "message": "عذرًا ، ليس لديك حق الوصول إلى هذه الصفحة."
+    },
+    "statusCode": {
+      "message": "حدث خطأ: {error}",
+      "default": "لم نتمكن من معالجة هذا الخطأ. الرجاء معاودة المحاولة في وقت لاحق.",
+      "0": "لا يمكن التواصل مع الخادم. الرجاء معاودة المحاولة في وقت لاحق.",
+      "400": "تحقق من ملئ جميع الفواتير ثم أعد المحاولة.",
+      "422": "لم يتم العثور على هذا الطلب."
+    }
+  },
+  "menu": {
+    "sidebar": {
+      "changeLanguage": "غير اللغة",
+      "logout": "الخروج"
+    },
+    "liveOperations": "العمليات الحية",
+    "supportEvents": {
+      "list": "Support Events",
+      "details": "Support Event Detail"
+    },
+    "agents": {
+      "list": "عملاء",
+      "details": "تفاصيل الوكيل",
+      "update": "تحديث الوكيل",
+      "create": "إنشاء وكيل"
+    },
+    "agentTags": {
+      "list": "وكيل بطاقة",
+      "details": "تفاصيل بطاقة الوكيل",
+      "update": "تحديث وكيل بطاقة",
+      "create": "إنشاء وكيل بطاقة"
+    },
+    "agentCashInstances": {
+      "list": "وكيل النقدية الحالات",
+      "details": "وكيل مبيعات النقدية التفاصيل",
+      "update": "تحديث وكيل النقدية مثيل",
+      "create": "إنشاء وكيل النقدية مثيل"
+    },
+    "journeyGuru": "رحلة جورو",
+    "shipments": {
+      "list": "شحنات",
+      "details": "تفاصيل الشحن",
+      "update": "تحديث الشحن",
+      "create": "إنشاء شحنة",
+      "upload": "شحنات التحميل المجمع"
+    },
+    "fleetOwners": {
+      "list": "أصحاب الأسطول",
+      "details": "المالك الأسطول التفاصيل",
+      "update": "تحديث مالك الأسطول",
+      "create": "إنشاء مالك الأسطول"
+    },
+    "areas": {
+      "list": "المناطق",
+      "details": "تفاصيل المنطقة",
+      "update": "تحديث المنطقة",
+      "create": "إنشاء منطقة"
+    },
+    "routes": {
+      "list": "طرق",
+      "details": "تفاصيل المسار",
+      "update": "تحديث الطريق",
+      "create": "انشاء الطريق"
+    },
+    "routeExceptions": {
+      "list": "Route Exceptions",
+      "details": "Route Exception Detail",
+      "update": "Update Route Exception",
+      "create": "Create Route Exception"
+    },
+    "partners": {
+      "list": "شركاء",
+      "details": "تفاصيل الشريك",
+      "update": "تحديث الشريك",
+      "create": "إنشاء شريك"
+    },
+    "partnerDiscounts": {
+      "list": "خصومات الشريك",
+      "details": "تفاصيل خصم الشريك",
+      "update": "تحديث خصم الشريك",
+      "create": "خلق خصم الشريك"
+    },
+    "partnerCashInstances": {
+      "list": "مثيلات الشريك النقدية",
+      "details": "شريك النقدية مثيل التفاصيل",
+      "update": "تحديث شريك النقدية المثال",
+      "create": "إنشاء شريك النقدية مثيل"
+    },
+    "users": {
+      "list": "المستخدمين",
+      "details": "تفاصيل المستخدم",
+      "update": "تحديث المستخدم",
+      "create": "انشاء المستخدم"
+    },
+    "settings": "إعدادات"
+  },
+  "defaults": {
+    "ok": "حسنا",
+    "yes": "نعم فعلا",
+    "no": "لا",
+    "all": "All",
+    "notSet": "(غير مضبوط)",
+    "goBack": "عُد",
+    "save": "Save",
+    "cancel": "Cancel",
+    "placeholder": {
+      "select": "تحديد...",
+      "mapAutoComplete": "اسحب أو اكتب عنوانًا لوضع الدبوس ..."
+    },
+    "pagination": {
+      "navigation": "التنقل في الصفحة",
+      "next": "التالى",
+      "previous": "سابق",
+      "firstPage": "الصفحة الأولى",
+      "lastPage": "آخر صفحة"
+    }
+  },
+  "components": {
+    "relationManager": {
+      "addRelation": "إضافة {relationshipLabel} ...",
+      "detailRelation": "العلاقة بالتفصيل",
+      "removeRelation": "إزالة العلاقة",
+      "removeWarning": {
+        "title": "إزالة العلاقة بـ {relation Label} {item To Be Deleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، أزلها!",
+        "cancelButton": "إلغاء"
+      },
+      "removedAlert": {
+        "title": "تمت إزالة العلاقة بـ {relationshipLabel} {itemToBeDeleted} بنجاح!",
+        "confirmButton": "حسنا"
+      },
+      "addedAlert": {
+        "title": "تمت إضافة العلاقة بنجاح!",
+        "confirmButton": "حسنا"
+      },
+      "couldNotBeSavedAlert": {
+        "title": "العلاقة لا يمكن انقاذه!",
+        "confirmButton": "حسنا"
+      },
+      "empty": "لا شيء حتى الآن."
+    }
+  },
+  "login": {
+    "dashboardTitle": "فريق فريق العمليات",
+    "title": "يرجى إدخال بيانات الاعتماد الخاصة بك",
+    "loginButton": "تسجيل الدخول",
+    "forgotPassword": "نسيت رقمك السري؟",
+    "badCredentials": "تحقق من اسم المستخدم وكلمة المرور وحاول مرة أخرى."
+  },
+  "logout": {
+    "title": "لقد خرجت",
+    "message": "يمكنك الآن إغلاق هذه الصفحة بأمان./n أراك المرة القادمة!",
+    "loginButton": "العودة إلى تسجيل الدخول"
+  },
+  "forgotPassword": {
+    "title": "نسيت رقمك السري؟",
+    "description": "يرجى إدخال بريدك الإلكتروني أدناه ، حتى نتمكن من إرسال تعليمات لك لإعادة تعيين كلمة المرور الخاصة بك.",
+    "sendButton": "ارسل بريد الكتروني",
+    "notFound": "لم يتم العثور على هذا البريد الإلكتروني في سجلاتك ، يرجى التحقق والمحاولة مرة أخرى.",
+    "successMessageTitle": "طلب إعادة تعيين كلمة المرور كان ناجحًا.",
+    "successMessageText": "الآن ، يرجى التحقق من بريدك الإلكتروني للحصول على مزيد من التعليمات."
+  },
+  "users": {
+    "fields": {
+      "username": "اسم المستخدم",
+      "password": "كلمه السر",
+      "email": "عنوان البريد الإلكتروني",
+      "role": "تعيين دور",
+      "roles": "وظيفة",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "partner": "شريك",
+      "partnerId": "رقم تعريف الشريك",
+      "agent": "وكيل",
+      "agentId": "معرف الوكيل",
+      "roleList": {
+        "admin": "مدير",
+        "operationsTeamMember": "عضو فريق العمليات",
+        "accountant": "محاسب",
+        "agent": "وكيل",
+        "partner": "شريك"
+      }
+    },
+    "list": {
+      "title": "المستخدمين",
+      "description": "قائمة المستخدمين مع الوصول إلى النظام.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "أضف المستخدم",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف المستخدم {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق المستخدم",
+        "update": "تحديث المستخدم"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "انشاء المستخدم",
+      "updateButton": "حفظ المستخدم"
+    },
+    "detail": {
+      "title": "تفاصيل المستخدم",
+      "description": "تفاصيل المستخدم.",
+      "editButton": "تصحيح"
+    }
+  },
+  "liveOperations": {
+    "liveView": {
+      "title": "عرض لايف",
+      "agentDetailsButton": "تفاصيل الوكيل"
+    },
+    "journeyGuru": {
+      "title": "رحلة جورو",
+      "noResults": "لا يوجد وكلاء نشطون في هذه اللحظة"
+    },
+    "shipments": {
+      "title": "شحنات",
+      "noResults": "لا توجد شحنات لعرضها"
+    },
+    "statistics": {
+      "title": "الإحصاء",
+      "notAvailable": "N/A",
+      "shipments": "شحنات",
+      "agents": "عملاء",
+      "areas": "المناطق",
+      "routes": "طرق"
+    },
+    "alertsAndEvents": {
+      "title": "التنبيهات والأحداث",
+      "noResults": "لا تنبيهات أو أحداث لعرضها",
+      "routeOffer": "Route Offer #{id}",
+      "unknownAgent": "Unknown Agent",
+      "unknownShipment": "Not Available",
+      "statuses": {
+        "issue": "Issue",
+        "warning": "Warning",
+        "information": "Information"
+      },
+      "listItems": {
+        "routeOfferRequiringAttention": "{routeOffer} has taken more time to be accepted than usual",
+        "supportEvent": {
+          "unread": "{agent} is requesting a support for Shipment {shipment}: {type}",
+          "unresolved": "{agent} has unresolved support for Shipment {shipment}: {type}"
+        }
+      },
+      "notifications": {
+        "routeOfferRequiringAttention": "Route Offer #{id} has taken more time to be accepted than usual",
+        "supportEvent": {
+          "unread": "{agent} is requesting a support for Shipment {shipment}: {type}",
+          "unresolved": "{agent} has unresolved support for Shipment {shipment}: {type}"
+        }
+      },
+      "supportEventTypes": {
+        "Car broken": "Car broken",
+        "Customer Didn't Answer": "Customer Didn't Answer"
+      }
+    },
+    "citySelector": {
+      "title": "Cities",
+      "placeholder": "Select a city or begin typing...",
+      "centerMap": "Center Map"
+    },
+    "fullScreen": "تبديل وضع ملء الشاشة"
+  },
+  "workingDays": {
+    "fields": {
+      "names": {
+        "Sunday": "الأحد",
+        "Monday": "الإثنين",
+        "Tuesday": "الثلاثاء",
+        "Wednesday": "الأربعاء",
+        "Thursday": "الخميس",
+        "Friday": "يوم الجمعة",
+        "Saturday": "يوم السبت"
+      }
+    }
+  },
+  "agents": {
+    "fields": {
+      "name": "اسم",
+      "phone": "هاتف",
+      "friendlyId": "معرف ودية",
+      "status": "الحالة",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "tags": "الكلمات",
+      "type": "اكتب",
+      "fleetOwner": "مالك الاسطول",
+      "agreedMinimumWorkingHours": "وافق على الحد الأدنى من ساعات العمل",
+      "agreedMinimumShipments": "الشحنات الدنيا المتفق عليها",
+      "agreedMinimumPayment": "وافق على الحد الأدنى للدفع",
+      "agreedCommissionPerShipment": "لجنة متفق عليها لكل شحنة",
+      "invalidNameLength": "Name must have at least 3 characters.",
+      "invalidUsernameLength": "Username must have at least 3 characters.",
+      "nameAlreadyInUse": "This name is already registered. Please choose another one.",
+      "usernameAlreadyInUse": "This username is already registered. Please choose another one.",
+      "emailAlreadyInUse": "This email is already registered. Please choose another one.",
+      "statuses": {
+        "Available": "متاح",
+        "Not Available": "غير متاح",
+        "On Route": "على الطريق"
+      },
+      "types": {
+        "Full-timer": "كامل الموقت",
+        "Freelancer": "مستقل"
+      }
+    },
+    "list": {
+      "title": "عملاء",
+      "description": "قائمة بالوكلاء الذين يمكنهم تسليم الشحنات.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "أضف وكيل",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف الوكيل {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق الوكيل",
+        "update": "تحديث الوكيل"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "إنشاء وكيل",
+      "updateButton": "حفظ الوكيل",
+      "tags": {
+        "label": "الكلمات",
+        "title": "الكلمات",
+        "description": "تمت إضافة العلامات إلى هذا الوكيل."
+      }
+    },
+    "detail": {
+      "title": "تفاصيل الوكيل",
+      "description": "تفاصيل الوكيل.",
+      "editButton": "تصحيح",
+      "areas": {
+        "label": "منطقة",
+        "title": "المناطق",
+        "description": "المناطق التي يعمل فيها هذا الوكيل."
+      },
+      "workingDays": {
+        "label": "يوم عمل",
+        "title": "أيام العمل",
+        "description": "أيام هذا الوكيل العمل."
+      },
+      "workingHours": {
+        "label": "ساعة العمل",
+        "title": "ساعات العمل",
+        "description": "ساعات العمل هذا الوكيل."
+      }
+    }
+  },
+  "agentCashInstances": {
+    "fields": {
+      "amount": "كمية",
+      "dueDatetime": "تاريخ الاستحقاق",
+      "isSettled": "واستقر",
+      "settledAt": "استقر في",
+      "shipment": "شحنة",
+      "direction": "اتجاه",
+      "type": "اكتب",
+      "agent": "وكيل",
+      "routeId": "الطريق",
+      "shipmentId": "شحنة",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "types": {
+        "Cash Collected": "النقدية المجمعة",
+        "Insurance": "تأمين",
+        "Commission": "عمولة",
+        "Salary": "راتب"
+      },
+      "directions": {
+        "Credit": "بالوارد",
+        "Debit": "الصادرة"
+      }
+    },
+    "list": {
+      "title": "وكيل النقدية الحالات",
+      "description": "قائمة وكيل النقدية الحالات.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "إضافة وكيل النقدية مثيل",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف كيل النقد مثيل {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "إنشاء وكيل النقدية مثيل",
+        "update": "تحديث وكيل النقدية مثيل"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "إنشاء وكيل النقدية مثيل",
+      "updateButton": "احفظ وكيل النقدية المثال"
+    },
+    "detail": {
+      "title": "وكيل مبيعات النقدية التفاصيل",
+      "description": "تفاصيل وكيل النقدية مثيل.",
+      "routeLink": "Route #{route}",
+      "editButton": "تصحيح",
+      "agent": {
+        "title": "وكيل",
+        "description": "الوكيل المعين لهذا النقد.",
+        "viewAgent": "عرض تفاصيل الوكيل"
+      },
+      "shipment": {
+        "title": "شحنة",
+        "description": "الشحنة المخصصة لهذا النقد.",
+        "viewRoute": "عرض الطريق",
+        "viewShipment": "عرض شحنة"
+      }
+    }
+  },
+  "journeyGuru": {
+    "title": "رحلة جورو",
+    "description": "تلقي التعليمات لكل مسار.",
+    "directions": "اتجاهات الطرق",
+    "nextButton": "التالى",
+    "routeSelectLabel": "{routeBundle} -Route # {routeId} - تم الإنشاء في {routeCreatedAt}",
+    "otpNumber": "عدد OTP",
+    "listDescription": "الشحنات المدرجة للمسار المحدد"
+  },
+  "shipments": {
+    "fields": {
+      "trackingId": "معرف التعقب",
+      "senderShipmentId": "معرف الشحنة المرسل",
+      "senderName": "اسم المرسل",
+      "senderAddress": "عنوان المرسل",
+      "senderGeoPoint": {
+        "lat": "مرسل جيو نقطة خط العرض",
+        "lng": "مرسل جيو نقطة خط الطول"
+      },
+      "senderPhone": "هاتف المرسل",
+      "senderEmail": "Sender Email",
+      "recipientName": "اسم المستلم",
+      "recipientAddress": "عنوان المستلم",
+      "recipientGeoPoint": {
+        "lat": "المتلقي جيو نقطة خط العرض",
+        "lng": "المتلقي جيو نقطة الطول"
+      },
+      "recipientPhone": "هاتف مستلم",
+      "recipientEmail": "Recipient Email",
+      "pickupDatetime": "بيك أب التاريخ والوقت",
+      "deliveryDatetime": "التسليم في حينه",
+      "numberOfPackages": "عدد الحزم",
+      "cashToCollectOnDelivery": "النقدية لجمع عند التسليم",
+      "recipientAddressConfirmed": "تأكيد عنوان المستلم",
+      "recipientAddressConfirmationDatetime": "المتلقي عنوان تأكيد التاريخ والوقت",
+      "status": "الحالة",
+      "route": "طريق",
+      "senderAreaId": "معرف منطقة المرسل",
+      "recipientAreaId": "معرف منطقة المستلم",
+      "partnerId": "معرف الشريك",
+      "belongsTo": "ينتمي إلى",
+      "senderArea": "منطقة المرسل",
+      "recipientArea": "منطقة المستلم",
+      "partner": "شريك",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "routePickupOrder": "ترتيب لاقط الطريق",
+      "routeDeliveryOrder": "أمر تسليم المسار",
+      "recipientWasContacted": "تم الاتصال المتلقي",
+      "senderWasContacted": "المرسل تم الاتصال به",
+      "wasScannedBeforePickup": "تم مسحها ضوئيا قبل بيك اب",
+      "wasScannedAfterContactingRecipient": "تم مسحه ضوئيا بعد الاتصال المتلقي",
+      "otpNumber": "عدد OTP",
+      "otpNumberWasConfirmed": "عدد OTP وأكد",
+      "otpNumberIsNotMandatory": "رقم OTP ليس إلزاميًا",
+      "description": "وصف",
+      "comment": "Comment",
+      "shouldNotBeAutoAssigned": "يجب عدم التعيين التلقائي",
+      "cancellationMessage": "Cancellation Message",
+      "statuses": {
+        "Created": "خلقت",
+        "Picked Up": "التقط",
+        "On Route": "على الطريق",
+        "Delivered": "تم التوصيل",
+        "Canceled": "ألغيت",
+        "Reschedule": "Reschedule",
+        "Returned": "Returned",
+        "Delivery Attempt Unsuccessful": "Delivery Attempt Unsuccessful"
+      },
+      "type": "اكتب",
+      "types": {
+        "Normal": "عادي",
+        "Stock-in-Transit": "الأسهم في عبور",
+        "Warehouse": "مستودع",
+        "Single": "طريق واحد"
+      },
+      "cancellationReason": "Cancellation Reason",
+      "cancellationReasons": {
+        "Sender not found in address": "Sender not found in address",
+        "Recipient does not exist": "Recipient does not exist",
+        "Recipient has moved": "Recipient has moved"
+      },
+      "unsuccessfulAttemptReason": "Unsuccessful Attempt Reason",
+      "unsuccessfulAttemptReasons": {
+        "Sender not found in address": "Sender not found in address",
+        "Recipient does not exist": "Recipient does not exist",
+        "Recipient has moved": "Recipient has moved"
+      }
+    },
+    "list": {
+      "title": "شحنات",
+      "description": "قائمة الشحنات التي سيتم تسليمها.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "إضافة شحنة",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف الشحنة {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق شحنة",
+        "update": "تحديث الشحن"
+      },
+      "routeSelectLabel": "{routeBundle} -Route # {routeId} - تم الإنشاء في {routeCreatedAt}",
+      "cancelButton": "إلغاء",
+      "createButton": "إنشاء شحنة",
+      "updateButton": "حفظ الشحن"
+    },
+    "detail": {
+      "title": "تفاصيل الشحن",
+      "description": "تفاصيل الشحن.",
+      "senderInformation": "Sender Information",
+      "recipientInformation": "Recipient Information",
+      "recipientAddressConfirmed": "Recipient Address Confirmed at {date}",
+      "recipientAddressNotConfirmed": "Recipient Address not confirmed yet",
+      "statuses": "Statuses",
+      "qrCode": "QR Code",
+      "shipmentInformation": "Shipment Information",
+      "routeInformation": "Route Information",
+      "mandatory": "Mandatory",
+      "saveButton": "حفظ",
+      "editButton": "تصحيح",
+      "printButton": "Print Label",
+      "printConfirmButton": "Confirm Print",
+      "viewRoute": "عرض الطريق",
+      "viewPartner": "View Partner",
+      "events": {
+        "label": "هدف",
+        "title": "أحداث",
+        "description": "الأحداث التي تم إنشاؤها بواسطة هذه الشحنة.",
+        "itemTextStatus": "تم تغيير الحالة إلى '{statusName}' على {createdAt}",
+        "itemTextAgent": "Agent '{agentName}' assigned to this shipment at {createdAt}",
+        "itemTextNoAgent": "This shipment became without an agent at {createdAt}",
+        "itemTextAddedToRoute": "This shipment was added to route Id '{routeId}' by '{userName}' at {createdAt}",
+        "itemTextAddedToRouteNoUser": "This shipment was added automatically to route Id '{routeId}' by the route generator at {createdAt}",
+        "itemTextRemovedFromRoute": "This shipment was removed from route Id '{routeId}' by '{userName}' at {createdAt}",
+        "empty": "There is no events for this shipment yet."
+      },
+      "exceptions": {
+        "title": "Route Exceptions",
+        "description": "Exceptions generated for this shipment.",
+        "active": "Active",
+        "inactive": "Inactive",
+        "itemText": "{active} exception for Route #{routeId}:\n{typeName} ({createdAt})",
+        "empty": "There is no exceptions for this shipment yet."
+      },
+      "cashInstances": {
+        "label": "النقد المثال",
+        "title": "النقود النقدية",
+        "description": "النقد الحالات التي ولدت هذه الشحنة.",
+        "itemText": "{direction}: {amount}"
+      }
+    },
+    "bulkUpload": {
+      "title": "شحنات التحميل المجمع",
+      "caption": "قم باستيراد جميع شحناتك بكل سهولة باستخدام ملف CSV",
+      "fileCaption": "اختر ملفًا أو اسحبه هنا.",
+      "fileInfo": "يرجى اختيار ملف بامتداد .csv بعد ملف القالب.",
+      "templateDownload": "لا تملك القالب؟ إضغط هنا للتحميل.",
+      "uploadResult": "انقر فوق الزر أدناه لحفظها في قاعدة البيانات\nتم شحن {total Shipments} من الشحنات.",
+      "saveButton": "حفظ الشحنات",
+      "reupload": "الرجاء إصلاح العناصر الموضحة في القائمة أعلاه وتحميل ملف يحتوي على هذه العناصر فقط",
+      "uploadSuccess": "{numberOfShipmentsCreated} الشحنات التي تم إنشاؤها بنجاح.",
+      "uploadError": "أخفق إنشاء {numberOfShipmentsFailed} الشحنات.",
+      "errorDetail": "تنسيق {fieldName} غير صالح"
+    }
+  },
+  "fleetOwners": {
+    "fields": {
+      "name": "اسم",
+      "city": "مدينة",
+      "country": "بلد",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في"
+    },
+    "list": {
+      "title": "أصحاب الأسطول",
+      "description": "قائمة أصحاب الأسطول.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "أضف مالك الأسطول",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف أسطول المالك {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق مالك الأسطول",
+        "update": "تحديث مالك الأسطول"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "إنشاء مالك الأسطول",
+      "updateButton": "حفظ مالك الأسطول"
+    },
+    "detail": {
+      "title": "المالك الأسطول التفاصيل",
+      "description": "تفاصيل مالك الاسطول.",
+      "editButton": "تصحيح",
+      "agents": {
+        "label": "عملاء",
+        "title": "عملاء",
+        "description": "قائمة الوكلاء المرتبطين بمالك الأسطول هذا."
+      }
+    }
+  },
+  "areas": {
+    "fields": {
+      "name": "اسم",
+      "code": "الشفرة",
+      "country": "بلد",
+      "city": "مدينة",
+      "centerGeoPoint": {
+        "center": "مركز",
+        "lat": "مركز خط العرض",
+        "lng": "مركز خط الطول"
+      },
+      "radius": "نصف القطر",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في"
+    },
+    "list": {
+      "title": "المناطق",
+      "description": "قائمة المناطق التي يمكن توصيل الشحنات إليها.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "إضافة منطقة",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف المنطقة {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق المنطقة",
+        "update": "تحديث المنطقة"
+      },
+      "placeholders": {
+        "name": "منطقة نيويورك",
+        "code": "NY029",
+        "city": "نيويورك",
+        "country": "الولايات المتحدة الامريكانية",
+        "centerGeoPoint": {
+          "lat": "20.302931",
+          "lng": "-73.020123"
+        },
+        "radius": "30"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "إنشاء منطقة",
+      "updateButton": "حفظ المنطقة"
+    },
+    "detail": {
+      "title": "تفاصيل المنطقة",
+      "description": "تفاصيل المنطقة.",
+      "editButton": "تصحيح",
+      "centerGeoPoint": {
+        "title": "الموقع على الخريطة",
+        "description": "تحقق من موقع المنطقة هذا مباشرةً على خرائط Google."
+      },
+      "agents": {
+        "label": "وكيل",
+        "title": "عملاء",
+        "description": "وكلاء يعملون في هذا المجال."
+      }
+    }
+  },
+  "agentTags": {
+    "fields": {
+      "name": "Name",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    },
+    "list": {
+      "title": "Agent Tags",
+      "description": "List of Agent Tags.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Agent Tag",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Agent {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Agent Tag",
+        "update": "Updating Agent Tag"
+      },
+      "placeholders": {
+        "name": "Agent Tag"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Agent Tag",
+      "updateButton": "Save Agent Tag"
+    },
+    "detail": {
+      "title": "Agent Tag Detail",
+      "description": "Details of the Agent Tag.",
+      "editButton": "Edit",
+      "routes": {
+        "label": "Route",
+        "title": "Routes",
+        "description": "Routes for this Agent Tag."
+      },
+      "agents": {
+        "label": "Agent",
+        "title": "Agents",
+        "description": "Agents for this Agent Tag."
+      }
+    }
+  },
+  "routes": {
+    "fields": {
+      "agent": "وكيل",
+      "shipments": "شحنات",
+      "startDatetime": "بدء التاريخ والوقت",
+      "endDatetime": "نهاية التاريخ والوقت",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "bundle": "حزمة",
+      "status": "الحالة",
+      "value": "القيمة",
+      "totalShipments": "مجموع الشحنات",
+      "totalIgnoredShipments": "Total Ignored Shipments",
+      "totalCoD": "مجموع النقد عند الاستلام",
+      "isOffered": "معروض",
+      "bundles": {
+        "Stock-in-Transit": "Stock-in-Transit",
+        "Bulk": "Bulk",
+        "Mix": "Mix",
+        "Directed-Bulk": "Directed-Bulk",
+        "Single": "Single"
+      },
+      "statuses": {
+        "Created": "Created",
+        "Assigned": "Assigned",
+        "Completed": "Completed",
+        "Started": "Started",
+        "Canceled": "Canceled"
+      }
+    },
+    "list": {
+      "title": "طرق",
+      "description": "قائمة من وكلاء الطرق يجب أن تتبع.",
+      "ignoredShipmentsTooltip": "{count} shipments are being ignored in this route",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "أضف الطريق",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف المسار {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      },
+      "autoAssign": "انتقاء ذاتي",
+      "autoAssignSuccessAlert": {
+        "title": "كله تمام!",
+        "text": "انقر فوق موافق لمشاهدة المسارات {numberOfRoutesAssigned} التي تم تعيينها!",
+        "confirmButton": "حسنا"
+      },
+      "autoAssignErrorAlert": {
+        "title": "هناك خطب ما...",
+        "confirmButton": "حسنا"
+      },
+      "generateRoutes": "توليد المسارات",
+      "routeGenerationSuccessAlert": {
+        "title": "كله تمام!",
+        "text": "انقر فوق موافق لمشاهدة مسارات {numberOfRoutesGenerated} التي تم إنشاؤها!"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق الطريق",
+        "update": "تحديث الطريق"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "انشاء الطريق",
+      "updateButton": "حفظ الطريق"
+    },
+    "detail": {
+      "title": "تفاصيل المسار",
+      "description": "تفاصيل الطريق.",
+      "editButton": "تصحيح",
+      "agent": {
+        "title": "وكيل",
+        "description": "الوكيل المعين لهذا المسار."
+      },
+      "shipments": {
+        "label": "شحنة",
+        "title": "شحنات",
+        "description": "الشحنات المخصصة لهذا الطريق.",
+        "text": "{trackingId} - {name} ({date})"
+      },
+      "requiredAgentTags": {
+        "label": "وكيل العلامات",
+        "title": "وكيل العلامات",
+        "description": "العلامات عامل المطلوبة من قبل هذا الطريق."
+      },
+      "exceptions": {
+        "title": "Route Exceptions",
+        "description": "Exceptions generated for this route.",
+        "active": "Active",
+        "inactive": "Inactive",
+        "itemText": "{active} exception for Shipment {trackingId}: {typeName} ({createdAt})",
+        "empty": "There is no exceptions for this route yet."
+      }
+    }
+  },
+  "partners": {
+    "fields": {
+      "name": "اسم",
+      "website": "موقع الكتروني",
+      "phone": "هاتف",
+      "isActive": "هو نشط",
+      "accessToken": "رمز وصول",
+      "maxShipmentPartsAllowed": "أقصى أجزاء الشحن المسموح بها",
+      "maxShipmentPartWeight": "أقصى وزن الشحنة",
+      "codIsCollect": "سمك القد هو جمع",
+      "codFee": "رسوم سمك القد",
+      "maxCodAmount": "ماكس القداس المبلغ",
+      "extraPartFee": "رسوم جزء اضافية",
+      "extraWeightFee": "رسوم الوزن الزائد",
+      "reschedulingFee": "إعادة جدولة الرسوم",
+      "returnsFee": "عوائد الرسوم",
+      "readdressingFee": "رسوم إعادة التعبئة",
+      "legacyApiKey": "Legacy Api Key",
+      "legacyApiSecret": "Legacy Api Secret",
+      "codFeeTypeId": "رقم تعريف نوع كود",
+      "codFeeType": "نوع الرسوم",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "codFeeTypes": {
+        "Flat": "مسطحة",
+        "Percentage": "النسبة المئوية"
+      },
+      "webhookUrl": "عنوان ربط الويب",
+      "legacyWebhookUrl": "عنوان ربط الويب (Legacy)",
+      "shippingFee": "رسوم الشحن",
+      "defaultShipmentType": "Default Shipment Type",
+      "type": "اكتب",
+      "types": {
+        "Corporate": "Corporate",
+        "Customer": "Customer"
+      }
+    },
+    "list": {
+      "title": "شركاء",
+      "description": "قائمة الشركاء.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "أضف شريكًا",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف الشريك {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق شريك",
+        "update": "تحديث الشريك"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "إنشاء شريك",
+      "updateButton": "حفظ الشريك"
+    },
+    "detail": {
+      "title": "تفاصيل الشريك",
+      "description": "تفاصيل الشريك.",
+      "editButton": "تصحيح",
+      "renewAccessToken": {
+        "title": "تجديد رمز الدخول",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "حسنا",
+        "cancelButton": "إلغاء"
+      }
+    }
+  },
+  "webhook": {
+    "fields": {
+      "webhookUrl": "Webhook URL",
+      "legacyWebhookUrl": "Legacy Webhook URL",
+      "webhookHeaders": "Webhook Headers",
+      "webhookHeader": {
+        "name": "Header Name",
+        "value": "Value"
+      }
+    },
+    "form": {
+      "title": "Webhook Configuration",
+      "caption": "Webhook Headers",
+      "actions": "Actions",
+      "editTooltip": "Edit",
+      "deleteTooltip": "Delete",
+      "addHeaderButton": "Add New Header",
+      "successMessage": "Webhook configuration saved successfully!",
+      "cancelButton": "Back to Dashboard",
+      "saveButton": "Save Configuration",
+      "deleteWarning": {
+        "title": "Delete Header {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    }
+  },
+  "partnerCashInstances": {
+    "fields": {
+      "amount": "كمية",
+      "dueDatetime": "تاريخ الاستحقاق",
+      "isSettled": "واستقر",
+      "settledAt": "استقر في",
+      "shipment": "شحنة",
+      "direction": "اتجاه",
+      "type": "اكتب",
+      "partner": "شريك",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "types": {
+        "CoD": "CoD",
+        "Fee": "رسوم"
+      },
+      "directions": {
+        "Credit": "بالوارد",
+        "Debit": "الصادرة"
+      }
+    },
+    "list": {
+      "title": "مثيلات الشريك النقدية",
+      "description": "قائمة الأمثلة النقدية الشريكة.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "إضافة شريك النقدية مثيل",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف شريك النقدية مثيل {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق شريك النقدية مثيل",
+        "update": "تحديث نسخة الشريك النقدية"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "إنشاء شريك النقدية مثيل",
+      "updateButton": "انقاذ الشريك النقد المثال"
+    },
+    "detail": {
+      "title": "شريك النقدية مثيل التفاصيل",
+      "description": "تفاصيل عن الشريك النقدي.",
+      "editButton": "تصحيح",
+      "partner": {
+        "title": "شريك",
+        "description": "الشريك المخصص لهذا النقد.",
+        "viewPartner": "عرض تفاصيل الشريك"
+      },
+      "shipment": {
+        "title": "شحنة",
+        "description": "الشحنة المخصصة لهذا النقد.",
+        "viewRoute": "عرض الطريق",
+        "viewShipment": "عرض شحنة"
+      }
+    }
+  },
+  "partnerDiscounts": {
+    "fields": {
+      "code": "الشفرة",
+      "isActive": "هو نشط",
+      "startDatetime": "بدء التاريخ والوقت",
+      "endDatetime": "نهاية التاريخ والوقت",
+      "count": "عد",
+      "rate": "معدل",
+      "partner": "شريك",
+      "feeType": "نوع الرسوم",
+      "createdAt": "أنشئت في",
+      "updatedAt": "تم التحديث في",
+      "feeTypes": {
+        "Flat": "مسطحة",
+        "Percentage": "النسبة المئوية"
+      }
+    },
+    "list": {
+      "title": "خصومات الشريك",
+      "description": "قائمة خصومات الشريك.",
+      "view": "رأي",
+      "viewTooltip": "رأي",
+      "add": "إضافة خصم الشريك",
+      "edit": "تصحيح",
+      "editTooltip": "تصحيح",
+      "delete": "ديل",
+      "deleteTooltip": "حذف",
+      "deleteWarning": {
+        "title": "حذف خصم الشريك {itemToBeDeleted}؟",
+        "message": "لن تتمكن من التراجع عن هذا!",
+        "confirmButton": "نعم ، احذفها!",
+        "cancelButton": "إلغاء"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "خلق خصم الشريك",
+        "update": "تحديث خصم الشريك"
+      },
+      "cancelButton": "إلغاء",
+      "createButton": "خلق خصم الشريك",
+      "updateButton": "حفظ خصم الشريك"
+    },
+    "detail": {
+      "title": "تفاصيل خصم الشريك",
+      "description": "تفاصيل خصم الشريك.",
+      "editButton": "تصحيح"
+    }
+  },
+  "settings": {
+    "fields": {
+      "1": "الطريق عرض بدء دائرة نصف قطرها",
+      "2": "عرض الطريق الشعاع زيادة معدل",
+      "3": "فاصل عرض الطريق ثانية لزيادة الشعاع",
+      "4": "الموافقات على قبول عرض المسار بالثواني",
+      "5": "Route Offer Agents Notified per Interval",
+      "6": "Route Offer Empty Retry Attempts",
+      "7": "Partner Whitelist for new stack response in Proxy API",
+      "8": "Webhook Maximum Number of Attempts",
+      "9": "Webhook Seconds Interval Increment to New Attempt"
+    },
+    "form": {
+      "title": "إعدادات",
+      "saveButton": "حفظ",
+      "alert": {
+        "confirmButton": "حسنا",
+        "success": {
+          "title": "كله تمام!",
+          "message": "حفظ بنجاح"
+        },
+        "warning": {
+          "title": "هناك خطب ما..."
+        }
+      }
+    }
+  },
+  "reports": {
+    "form": {
+      "title": "Reports",
+      "description": "Generate spreadsheets based on the currently stored data.",
+      "download": "Download",
+      "filterBy": "Filter by",
+      "agentCashBalance": {
+        "title": "Agent Cash Balance",
+        "description": "Shows what all Agents owes and are owed for each day within a range, including the amounts for Cash Collected on Delivery."
+      },
+      "agentPerformance": {
+        "title": "Agent Performance (Work in Progress)",
+        "description": "Compare the agents overall performance by showing totals for Active Hours (N/A), Offered Routes (N/A), Assigned Routes and Acceptance Rate (N/A)."
+      },
+      "shipments": {
+        "title": "Shipments",
+        "description": "Shows current statuses and other important performance data from all shipments like delivery time and total elapsed time, along with cash collected on delivery and Agent commissions."
+      },
+      "dateRange": {
+        "title": "Date Range",
+        "from": "From",
+        "to": "To"
+      }
+    }
+  },
+  "supportEvents": {
+    "fields": {
+      "agent": "Agent",
+      "shipment": "Shipment",
+      "comment": "Comment",
+      "readUser": "Marked as Read by",
+      "resolvedUser": "Marked as Resolved by",
+      "readAt": "Read At",
+      "resolvedAt": "Resolved At",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "type": "Type",
+      "types": {
+        "Car broken": "Car broken",
+        "Customer Didn't Answer": "Customer Didn't Answer"
+      },
+      "status": "Status",
+      "statuses": {
+        "Created": "Created",
+        "Read": "Read",
+        "Resolved": "Resolved"
+      }
+    },
+    "list": {
+      "title": "Support Events",
+      "description": "List of Support Events triggered by Agents.",
+      "view": "View",
+      "viewTooltip": "View",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Support Event by {itemToBeDeleted}?",
+        "unknownAgent": "Unknown Agent",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      },
+      "filters": {
+        "type": "Event Type",
+        "status": "Status"
+      }
+    },
+    "detail": {
+      "title": "Support Event Detail",
+      "description": "Details of the Support Event.",
+      "saveButton": "Save",
+      "markAsReadButton": "Mark as Read",
+      "markAsResolvedButton": "Mark as Resolved",
+      "agent": {
+        "title": "Agent",
+        "description": "Agent related with this event.",
+        "viewAgent": "View Agent Details"
+      },
+      "shipment": {
+        "title": "Shipment",
+        "description": "Shipment related with this event.",
+        "viewRoute": "View Route",
+        "viewShipment": "View Shipment"
+      }
+    }
+  },
+  "routeExceptions": {
+    "fields": {
+      "route": "Route",
+      "routeName": "Route #{route}",
+      "shipment": "Shipment",
+      "active": "Active",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "type": "Type",
+      "types": {
+        "Ignore Shipment": "Ignore Shipment"
+      }
+    },
+    "list": {
+      "title": "Route Exceptions",
+      "description": "List of Exceptions generated for a Route.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Route Exception",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Route Exception for Route #{itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      },
+      "filters": {
+        "type": "Exception Type",
+        "status": "Status"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Route Exception",
+        "update": "Updating Route Exception"
+      },
+      "selectAnRoute": "Select a Route",
+      "cancelButton": "Cancel",
+      "createButton": "Create Route Exception",
+      "updateButton": "Save Route Exception"
+    },
+    "detail": {
+      "title": "Route Exception Detail",
+      "description": "Details of the Route Exception.",
+      "route": {
+        "title": "Route",
+        "description": "Route related with this exception.",
+        "viewRoute": "View Route Details"
+      },
+      "shipment": {
+        "title": "Shipment",
+        "description": "Shipment related with this exception.",
+        "viewShipment": "View Shipment"
+      },
+      "editButton": "Edit"
+    }
+  }
+}

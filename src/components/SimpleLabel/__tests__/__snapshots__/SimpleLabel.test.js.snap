@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleLabel /> matches the snapshot 1`] = `
+<div
+  className="simple-label-component bg-red"
+  style={
+    Object {
+      "width": "50px",
+    }
+  }
+  title="title text"
+>
+  Hello World
+</div>
+`;

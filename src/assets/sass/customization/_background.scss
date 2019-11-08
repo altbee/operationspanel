@@ -1,0 +1,15 @@
+.pattern-background-1 {
+  background-image: url("/img/pattern-1.png");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.pattern-background-2 {
+  background-image: url("/img/pattern-2.png");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.bg-purple-transparent {
+  background-color: transparentize(darken($deep-purple, 5), 0.1);
+}

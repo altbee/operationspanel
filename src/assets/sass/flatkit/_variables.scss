@@ -1,0 +1,117 @@
+/*
+
+*/
+
+$full-black: rgba(0, 0, 0, 1) !default;
+$dark-black: rgba(0, 0, 0, 0.87) !default;
+$light-black: rgba(0, 0, 0, 0.54) !default;
+$min-black: rgba(0, 0, 0, 0.065) !default;
+
+$full-white: rgba(255, 255, 255, 1) !default;
+$dark-white: rgba(255, 255, 255, 0.87) !default;
+$light-white: rgba(255, 255, 255, 0.54) !default;
+$min-white: rgba(255, 255, 255, 0.1) !default;
+
+$primary: #0cc2aa !default;
+$accent: #a88add !default;
+$warn: #fcc100 !default;
+
+$info: #6887ff !default;
+$success: #6cc788 !default;
+$warning: #f77a99 !default;
+$danger: #f44455 !default;
+
+$light: #f8f8f8 !default;
+$grey: #424242 !default;
+$dark: #2e3e4e !default;
+$black: #2a2b3c !default;
+$white: #ffffff !default;
+
+$primary-color: $dark-white !default;
+$accent-color: $dark-white !default;
+$warn-color: $dark-white !default;
+$success-color: $dark-white !default;
+$info-color: $dark-white !default;
+$warning-color: $dark-white !default;
+$danger-color: $dark-white !default;
+$light-color: $dark-black !default;
+$grey-color: $dark-white !default;
+$dark-color: $dark-white !default;
+$black-color: $dark-white !default;
+
+$html-bg: #e0e0e0 !default;
+$body-bg: #f0f0f0 !default;
+$text-color: $dark-black !default;
+$text-muted: $light-black !default;
+
+$enable-shadows: true !default;
+$enable-hover-media-query: true !default;
+
+$border-color: rgba(120, 130, 140, 0.13) !default;
+$border-color-lt: rgba(120, 130, 140, 0.065) !default;
+$border-color-lter: rgba(120, 130, 140, 0.045) !default;
+
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+
+$font-size: 0.875rem !default;
+$line-height: 1.5 !default;
+
+$font-size-lg: 1.5rem !default;
+$font-size-md: 1.125rem !default;
+$font-size-sm: 0.8rem !default;
+$font-size-xs: 0.75rem !default;
+
+$spacer: 1rem !default;
+$spacer-x: 1rem !default;
+$spacer-y: 1rem !default;
+
+$link-color: $primary !default;
+$hover-color: darken($link-color, 15%) !default;
+$color-percent: 2.5% !default;
+$color-lt-percent: 2.5% !default;
+$color-dk-percent: 3.5% !default;
+
+$border-radius-base: 3px !default;
+
+$navbar-height: 3.5rem !default;
+$navbar-md-height: 4rem !default;
+$navbar-sm-height: 3rem !default;
+
+$aside-width: 12.5rem !default;
+$aside-lg-width: 13.75rem !default;
+$aside-sm-width: 11.25rem !default;
+$aside-folded-width: 4rem !default;
+$aside-folded-md-width: 5rem !default;
+$aside-nav-height: 2.25rem !default;
+$aside-nav-folded-height: 2.5rem !default;
+$aside-nav-sub-height: 2rem !default;
+$aside-nav-stacked-height: 2rem !default;
+
+$footer-height: 3.125rem !default;
+
+$label-bg: darken($light, 25%) !default;
+
+$table-border-color: $border-color-lter !default;
+$table-striped-color: rgba(0, 0, 0, 0.025) !default;
+$list-group-border: $border-color-lt !default;
+
+$input-border: rgba(120, 130, 140, 0.2) !default;
+$input-border-focus: rgba(120, 130, 140, 0.3) !default;
+$input-border-radius: 0 !default;
+
+$arrow-width: 8px !default;
+$arrow-outer-color: $border-color !default;
+
+$switch-width: 32px !default;
+$switch-height: 18px !default;
+$switch-md-width: 40px !default;
+$switch-md-height: 24px !default;
+$switch-lg-width: 50px !default;
+$switch-lg-height: 30px !default;
+
+$ui-check-size: 16px !default;
+$ui-check-md-size: 18px !default;
+$ui-check-lg-size: 30px !default;
+$ui-check-sign-size: 6px !default;
+$ui-check-sign-color: $primary !default;
+$ui-check-checked-border: $input-border !default;

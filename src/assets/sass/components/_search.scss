@@ -1,0 +1,101 @@
+.search-component {
+  position: relative;
+  width: 100%;
+  display: flex;
+
+  .react-datepicker-wrapper {
+    flex: 1 1 auto;
+    width: 1%;
+  }
+
+  &.on-top {
+    z-index: 5;
+  }
+
+  &.no-borders {
+    > .input-group {
+      border: none;
+    }
+  }
+
+  .form-control {
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-color: transparent;
+    }
+  }
+
+  > .input-group {
+    border: solid 1px lightgray;
+    border-radius: 0.25rem;
+
+    &.search {
+      display: flex;
+      align-items: center;
+
+      > .svg-inline--fa {
+        color: lightgray;
+        margin-right: 16px;
+      }
+    }
+
+    > .input {
+      outline: none;
+      border: none;
+
+      &.has-dropdown {
+        border-radius: 0.25rem 0 0 0.25rem;
+        z-index: 3;
+      }
+    }
+
+    > .dropdown-wrapper {
+      .dropdown-toggle {
+        background-color: $secondary;
+        border-color: transparent;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        &:focus {
+          outline: none;
+          box-shadow: none;
+          border-color: transparent;
+        }
+      }
+
+      .dropdown-menu {
+        left: auto;
+        right: 0;
+        transform: scaleY(0);
+        transition: transform 0.1s ease-out; // note that we're transitioning transform, not height!
+        transform-origin: top; // keep the top of the element in the same place. this is optional.
+        display: block;
+
+        &.show {
+          transform: scaleY(1);
+        }
+
+        > .dropdown-item {
+          &:hover {
+            background-color: $primary;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.width_60 {
+  width: 100%;
+}
+
+.width_200 {
+  width: 200px;
+}
+
+.width_100 {
+  width: 100px;
+}

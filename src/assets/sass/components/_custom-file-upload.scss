@@ -1,0 +1,23 @@
+.custom-file-upload {
+  margin: 0;
+  position: relative;
+  cursor: pointer !important;
+
+  & > input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.drag-body {
+  margin: 1rem;
+  border: 4px dashed $gray-200;
+}

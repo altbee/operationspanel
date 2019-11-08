@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomCheckbox />  matches the snapshot 1`] = `
+<div
+  className="checkbox checkbox-inline"
+>
+  <label
+    htmlFor={150}
+  >
+    <input
+      checked={true}
+      id={150}
+      onChange={[Function]}
+      type="checkbox"
+    />
+    label text
+  </label>
+</div>
+`;

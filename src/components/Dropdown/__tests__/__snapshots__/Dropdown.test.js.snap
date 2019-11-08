@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> matches the snapshot 1`] = `
+<div
+  className="btn-group dropdown-component"
+  role="group"
+  title="Search By first"
+>
+  <div
+    className="dropdown-label btn btn-secondary w-50"
+  >
+    Passed title
+  </div>
+  <button
+    aria-expanded="false"
+    aria-haspopup="true"
+    className="btn btn-secondary dropdown-toggle w-100 text-right"
+    data-toggle="dropdown"
+    onClick={[Function]}
+    type="button"
+  >
+    first
+  </button>
+  <div
+    className="dropdown-menu dropdown-menu-right "
+  >
+    <button
+      className="dropdown-item"
+      key="first"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
+    >
+      first
+    </button>
+    <button
+      className="dropdown-item"
+      key="second"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
+    >
+      second
+    </button>
+    <button
+      className="dropdown-item"
+      key="third"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
+    >
+      third
+    </button>
+  </div>
+</div>
+`;

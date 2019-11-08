@@ -1,0 +1,12 @@
+.table-header {
+  cursor: pointer;
+
+  & > svg[data-icon="sort"] {
+    color: lighten($gray, 30);
+  }
+
+  & > svg[data-icon="sort-down"],
+  & > svg[data-icon="sort-up"] {
+    color: $primary;
+  }
+}

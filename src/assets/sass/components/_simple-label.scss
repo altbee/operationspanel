@@ -1,0 +1,50 @@
+.simple-label-component {
+  position: relative;
+  width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+
+  &.bg-magenta {
+    background-color: $magenta;
+  }
+
+  &.bg-deep-purple {
+    background-color: $deep-purple;
+  }
+
+  &.bg-blue {
+    background-color: $blue;
+  }
+
+  &.bg-green {
+    background-color: $green;
+  }
+
+  &.bg-cyan {
+    background-color: $cyan;
+  }
+
+  &.bg-yellow {
+    background-color: $yellow;
+  }
+
+  &.bg-red {
+    background-color: $red;
+  }
+
+  &.bg-gray {
+    background-color: $gray;
+  }
+
+  &.bg-dark-gray {
+    background-color: $dark-gray;
+  }
+
+  &.bg-light-gray {
+    background-color: $light-gray;
+  }
+}

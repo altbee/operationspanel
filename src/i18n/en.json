@@ -1,0 +1,1312 @@
+{
+  "error": {
+    "notFound": {
+      "title": "Page not found",
+      "message": "Sorry, the page you requested could not be found."
+    },
+    "unknown": {
+      "title": "Unknown error",
+      "message": "Sorry, we couldn't process this error. Please try again later."
+    },
+    "forbidden": {
+      "title": "Forbidden",
+      "message": "Sorry, you do not have access to this page."
+    },
+    "statusCode": {
+      "message": "An error has ocurred: {error}",
+      "default": "We couldn't process this error. Please try again later.",
+      "0": "Could not communicate with the server. Please try again later.",
+      "400": "Verify if all obligatory are filled and then try again.",
+      "422": "This order could not be found."
+    }
+  },
+  "menu": {
+    "sidebar": {
+      "changeLanguage": "Change Language",
+      "logout": "Log out"
+    },
+    "liveOperations": "Live Operations",
+    "supportEvents": {
+      "list": "Support Events",
+      "details": "Support Event Detail"
+    },
+    "agents": {
+      "list": "Agents",
+      "details": "Agent Detail",
+      "update": "Update Agent",
+      "create": "Create Agent"
+    },
+    "agentTags": {
+      "list": "Agent Tags",
+      "details": "Agent Tag Detail",
+      "update": "Update AgentTag",
+      "create": "Create AgentTag"
+    },
+    "agentCashInstances": {
+      "list": "Agent Cash Instances",
+      "details": "Agent Cash Instance Detail",
+      "update": "Update Agent Cash Instance",
+      "create": "Create Agent Cash Instance"
+    },
+    "journeyGuru": "Journey Guru",
+    "shipments": {
+      "list": "Shipments",
+      "details": "Shipment Detail",
+      "update": "Update Shipment",
+      "create": "Create Shipment",
+      "upload": "Bulk Upload Shipments"
+    },
+    "fleetOwners": {
+      "list": "Fleet Owners",
+      "details": "Fleet Owner Detail",
+      "update": "Update Fleet Owner",
+      "create": "Create Fleet Owner"
+    },
+    "areas": {
+      "list": "Areas",
+      "details": "Area Details",
+      "update": "Update Area",
+      "create": "Create Area"
+    },
+    "routes": {
+      "list": "Routes",
+      "details": "Route Detail",
+      "update": "Update Route",
+      "create": "Create Route"
+    },
+    "routeExceptions": {
+      "list": "Route Exceptions",
+      "details": "Route Exception Detail",
+      "update": "Update Route Exception",
+      "create": "Create Route Exception"
+    },
+    "partners": {
+      "list": "Partners",
+      "details": "Partner Detail",
+      "update": "Update Partner",
+      "create": "Create Partner"
+    },
+    "partnerDiscounts": {
+      "list": "Partner Discounts",
+      "details": "Partner Discount Detail",
+      "update": "Update Partner Discount",
+      "create": "Create Partner Discount"
+    },
+    "partnerCashInstances": {
+      "list": "Partner Cash Instances",
+      "details": "Partner Cash Instance Detail",
+      "update": "Update Partner Cash Instance",
+      "create": "Create Partner Cash Instance"
+    },
+    "users": {
+      "list": "Users",
+      "details": "User Detail",
+      "update": "Update User",
+      "create": "Create User"
+    },
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "defaults": {
+    "ok": "Ok",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "notSet": "(Not Set)",
+    "goBack": "Go back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "placeholder": {
+      "select": "Select...",
+      "mapAutoComplete": "Drag or type an address to place the pin..."
+    },
+    "pagination": {
+      "navigation": "Page navigation",
+      "next": "Next",
+      "previous": "Previous",
+      "firstPage": "First page",
+      "lastPage": "Last page"
+    }
+  },
+  "components": {
+    "relationManager": {
+      "addRelation": "Add {relationLabel}...",
+      "detailRelation": "Detail Relation",
+      "removeRelation": "Remove Relation",
+      "removeWarning": {
+        "title": "Remove relation with {relationLabel} {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, remove it!",
+        "cancelButton": "Cancel"
+      },
+      "removedAlert": {
+        "title": "Relation with {relationLabel} {itemToBeDeleted} removed successfully!",
+        "confirmButton": "OK"
+      },
+      "addedAlert": {
+        "title": "Relation added successfully!",
+        "confirmButton": "OK"
+      },
+      "couldNotBeSavedAlert": {
+        "title": "Relation could not be saved!",
+        "confirmButton": "OK"
+      },
+      "empty": "None yet."
+    }
+  },
+  "login": {
+    "dashboardTitle": "Operations Team Panel",
+    "title": "Please entry your credentials",
+    "loginButton": "Login",
+    "forgotPassword": "Forgot your password?",
+    "badCredentials": "Verify your username and password and try again."
+  },
+  "logout": {
+    "title": "You have logged out",
+    "message": "You can now safely close this page.\nSee you next time!",
+    "loginButton": "Go back to Login"
+  },
+  "forgotPassword": {
+    "title": "Forgot your password?",
+    "description": "Please enter your email below, so we can send you instructions for resetting your password.",
+    "sendButton": "Send e-mail",
+    "notFound": "This e-mail was not found in your records, please check and try again.",
+    "successMessageTitle": "Password reset request was successful.",
+    "successMessageText": "Now, please verify your email for further instructions."
+  },
+  "users": {
+    "fields": {
+      "username": "Username",
+      "password": "Password",
+      "email": "E-mail Address",
+      "role": "Assign Role",
+      "roles": "Role",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "partner": "Partner",
+      "partnerId": "Partner Id",
+      "agent": "Agent",
+      "agentId": "Agent Id",
+      "roleList": {
+        "admin": "Administrator",
+        "operationsTeamMember": "Operations Team Member",
+        "accountant": "Accountant",
+        "agent": "Agent",
+        "partner": "Partner"
+      }
+    },
+    "list": {
+      "title": "Users",
+      "description": "List of users with access to the system.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add User",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete User {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating User",
+        "update": "Updating User"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create User",
+      "updateButton": "Save User"
+    },
+    "detail": {
+      "title": "User Detail",
+      "description": "Details of the User.",
+      "editButton": "Edit"
+    }
+  },
+  "liveOperations": {
+    "liveView": {
+      "title": "Live View",
+      "agentDetailsButton": "Agent Details"
+    },
+    "journeyGuru": {
+      "title": "Journey Guru",
+      "noResults": "No agents active at this moment"
+    },
+    "shipments": {
+      "title": "Shipments",
+      "noResults": "No shipments to display"
+    },
+    "statistics": {
+      "title": "Statistics",
+      "notAvailable": "N/A",
+      "shipments": {
+        "text": "Shipments",
+        "iconText": "Recorded on database"
+      },
+      "agents": {
+        "text": "Agents",
+        "iconText": "Registered in the system"
+      },
+      "areas": {
+        "text": "Areas",
+        "iconText": "Mapped until now"
+      },
+      "routes": {
+        "text": "Routes",
+        "iconText": "Generated until now"
+      }
+    },
+    "alertsAndEvents": {
+      "title": "Alerts and Events",
+      "noResults": "No alerts or events to display",
+      "routeOffer": "Route Offer #{id}",
+      "unknownAgent": "Unknown Agent",
+      "unknownShipment": "Not Available",
+      "statuses": {
+        "issue": "Issue",
+        "warning": "Warning",
+        "information": "Information"
+      },
+      "listItems": {
+        "routeOfferRequiringAttention": "{routeOffer} has taken more time to be accepted than usual",
+        "supportEvent": {
+          "unread": "{agent} is requesting a support for Shipment {shipment}: {type}",
+          "unresolved": "{agent} has unresolved support for Shipment {shipment}: {type}"
+        }
+      },
+      "notifications": {
+        "routeOfferRequiringAttention": "Route Offer #{id} has taken more time to be accepted than usual",
+        "supportEvent": {
+          "unread": "{agent} is requesting a support for Shipment {shipment}: {type}",
+          "unresolved": "{agent} has unresolved support for Shipment {shipment}: {type}"
+        }
+      }
+    },
+    "citySelector": {
+      "title": "Cities",
+      "placeholder": "Select a city or begin typing...",
+      "centerMap": "Center Map"
+    },
+    "fullScreen": "Toggle full screen mode"
+  },
+  "dashboard": {
+    "title": "Hello, {name}!",
+    "description": "Welcome to Operations Team Panel.",
+    "notAvailable": "N/A",
+    "shipments": {
+      "text": "Shipments",
+      "iconText": "Recorded on database"
+    },
+    "agents": {
+      "text": "Agents",
+      "iconText": "Registered in the system"
+    },
+    "areas": {
+      "text": "Areas",
+      "iconText": "Mapped until now"
+    },
+    "routes": {
+      "text": "Routes",
+      "iconText": "Generated until now"
+    }
+  },
+  "workingDays": {
+    "fields": {
+      "names": {
+        "Sunday": "Sunday",
+        "Monday": "Monday",
+        "Tuesday": "Tuesday",
+        "Wednesday": "Wednesday",
+        "Thursday": "Thursday",
+        "Friday": "Friday",
+        "Saturday": "Saturday"
+      }
+    }
+  },
+  "agents": {
+    "fields": {
+      "name": "Name",
+      "phone": "Phone",
+      "friendlyId": "Friendly ID",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "tags": "Tags",
+      "type": "Type",
+      "fleetOwner": "Fleet Owner",
+      "agreedMinimumWorkingHours": "Agreed Minimum Working Hours",
+      "agreedMinimumShipments": "Agreed Minimum Shipments",
+      "agreedMinimumPayment": "Agreed Minimum Payment",
+      "agreedCommissionPerShipment": "Agreed Commission Per Shipment",
+      "invalidNameLength": "Name must have at least 3 characters.",
+      "invalidUsernameLength": "Username must have at least 3 characters.",
+      "nameAlreadyInUse": "This name is already registered. Please choose another one.",
+      "usernameAlreadyInUse": "This username is already registered. Please choose another one.",
+      "emailAlreadyInUse": "This email is already registered. Please choose another one.",
+      "statuses": {
+        "Available": "Available",
+        "Not Available": "Not Available",
+        "On Route": "On Route"
+      },
+      "types": {
+        "Full-timer": "Full-timer",
+        "Freelancer": "Freelancer"
+      }
+    },
+    "list": {
+      "title": "Agents",
+      "description": "List of agents that can deliver shipments.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Agent",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Agent {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Agent",
+        "update": "Updating Agent"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Agent",
+      "updateButton": "Save Agent",
+      "tags": {
+        "label": "Tags",
+        "title": "Tags",
+        "description": "Tags added to this agent."
+      }
+    },
+    "detail": {
+      "title": "Agent Detail",
+      "description": "Details of the Agent.",
+      "editButton": "Edit",
+      "areas": {
+        "label": "Area",
+        "title": "Areas",
+        "description": "Areas where this agent work."
+      },
+      "workingDays": {
+        "label": "Working Day",
+        "title": "Working Days",
+        "description": "Days this agent work."
+      },
+      "workingHours": {
+        "label": "Working Hour",
+        "title": "Working Hours",
+        "description": "Hours this agent work."
+      }
+    }
+  },
+  "agentCashInstances": {
+    "fields": {
+      "amount": "Amount",
+      "dueDatetime": "Due Date",
+      "isSettled": "Is Settled",
+      "settledAt": "Settled At",
+      "shipment": "Shipment",
+      "direction": "Direction",
+      "type": "Type",
+      "agent": "Agent",
+      "routeId": "Route",
+      "shipmentId": "Shipment",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "types": {
+        "Cash Collected": "Cash Collected",
+        "Insurance": "Insurance",
+        "Commission": "Commission",
+        "Salary": "Salary"
+      },
+      "directions": {
+        "Credit": "Credit",
+        "Debit": "Debit"
+      }
+    },
+    "list": {
+      "title": "Agent Cash Instances",
+      "description": "List of Agent Cash Instances.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Agent Cash Instance",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Agent Cash Instance {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Agent Cash Instance",
+        "update": "Updating Agent Cash Instance"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Agent Cash Instance",
+      "updateButton": "Save Agent Cash Instance"
+    },
+    "detail": {
+      "title": "Agent Cash Instance Detail",
+      "description": "Details of the Agent Cash Instance.",
+      "routeLink": "Route #{route}",
+      "editButton": "Edit",
+      "agent": {
+        "title": "Agent",
+        "description": "Agent assigned to this Cash Instance.",
+        "viewAgent": "View Agent Details"
+      },
+      "shipment": {
+        "title": "Shipment",
+        "description": "Shipment assigned to this Cash Instance.",
+        "viewRoute": "View Route",
+        "viewShipment": "View Shipment"
+      }
+    }
+  },
+  "journeyGuru": {
+    "title": "Journey Guru",
+    "description": "Receive instructions per route.",
+    "directions": "Directions of the routes",
+    "nextButton": "Next",
+    "routeSelectLabel": "{routeBundle}-Route #{routeId} - Created on {routeCreatedAt}",
+    "otpNumber": "OTP Number",
+    "listDescription": "Shipments listed for the selected route"
+  },
+  "shipments": {
+    "fields": {
+      "trackingId": "Tracking ID",
+      "senderShipmentId": "Sender Shipment ID",
+      "senderName": "Sender Name",
+      "senderAddress": "Sender Address",
+      "senderGeoPoint": {
+        "lat": "Sender Geo Point Latitude",
+        "lng": "Sender Geo Point Longitude"
+      },
+      "senderPhone": "Sender Phone",
+      "senderEmail": "Sender Email",
+      "recipientName": "Recipient Name",
+      "recipientAddress": "Recipient Address",
+      "recipientGeoPoint": {
+        "lat": "Recipient Geo Point Latitude",
+        "lng": "Recipient Geo Point Longitude"
+      },
+      "recipientPhone": "Recipient Phone",
+      "recipientEmail": "Recipient Email",
+      "pickupDatetime": "Pickup Datetime",
+      "deliveryDatetime": "Delivery Datetime",
+      "numberOfPackages": "Number of Packages",
+      "cashToCollectOnDelivery": "Cash To Collect On Delivery",
+      "recipientAddressConfirmed": "Recipient Address Confirmed",
+      "recipientAddressConfirmationDatetime": "Recipient Address Confirmation Datetime",
+      "status": "Status",
+      "route": "Route",
+      "senderAreaId": "Sender Area ID",
+      "recipientAreaId": "Recipient Area ID",
+      "partnerId": "Partner ID",
+      "belongsTo": "Belongs To",
+      "senderArea": "Sender Area",
+      "recipientArea": "Recipient Area",
+      "partner": "Partner",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "routePickupOrder": "Route Pickup Order",
+      "routeDeliveryOrder": "Route Delivery Order",
+      "recipientWasContacted": "Recipient Was Contacted",
+      "senderWasContacted": "Sender Was Contacted",
+      "wasScannedBeforePickup": "Was Scanned Before Pickup",
+      "wasScannedAfterContactingRecipient": "Was Scanned After Contacting Recipient",
+      "otpNumber": "OTP Number",
+      "otpNumberWasConfirmed": "OTP Number Was Confirmed",
+      "otpNumberIsNotMandatory": "OTP Number Is Not Mandatory",
+      "description": "Description",
+      "comment": "Comment",
+      "shouldNotBeAutoAssigned": "Should Not Be Auto-Assigned",
+      "cancellationMessage": "Cancellation Message",
+      "statuses": {
+        "Created": "Created",
+        "Picked Up": "Picked Up",
+        "On Route": "On Route",
+        "Delivered": "Delivered",
+        "Canceled": "Canceled",
+        "Reschedule": "Reschedule",
+        "Returned": "Returned",
+        "Delivery Attempt Unsuccessful": "Delivery Attempt Unsuccessful"
+      },
+      "type": "Type",
+      "types": {
+        "Normal": "Normal",
+        "Stock-in-Transit": "Stock-in-Transit",
+        "Warehouse": "Warehouse",
+        "Single": "Single"
+      },
+      "cancellationReason": "Cancellation Reason",
+      "cancellationReasons": {
+        "Sender not found in address": "Sender not found in address",
+        "Recipient does not exist": "Recipient does not exist",
+        "Recipient has moved": "Recipient has moved"
+      },
+      "unsuccessfulAttemptReason": "Unsuccessful Attempt Reason",
+      "unsuccessfulAttemptReasons": {
+        "Sender not found in address": "Sender not found in address",
+        "Recipient does not exist": "Recipient does not exist",
+        "Recipient has moved": "Recipient has moved"
+      }
+    },
+    "list": {
+      "title": "Shipments",
+      "description": "List of Shipments to be delivered.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Shipment",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Shipment {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Shipment",
+        "update": "Updating Shipment"
+      },
+      "routeSelectLabel": "{routeBundle}-Route #{routeId} - Created on {routeCreatedAt}",
+      "cancelButton": "Cancel",
+      "createButton": "Create Shipment",
+      "updateButton": "Save Shipment"
+    },
+    "detail": {
+      "title": "Shipment Detail",
+      "description": "Details of the Shipment.",
+      "senderInformation": "Sender Information",
+      "recipientInformation": "Recipient Information",
+      "recipientAddressConfirmed": "Recipient Address Confirmed at {date}",
+      "recipientAddressNotConfirmed": "Recipient Address not confirmed yet",
+      "statuses": "Statuses",
+      "qrCode": "QR Code",
+      "shipmentInformation": "Shipment Information",
+      "routeInformation": "Route Information",
+      "mandatory": "Mandatory",
+      "saveButton": "Save",
+      "editButton": "Edit",
+      "printButton": "Print Label",
+      "printConfirmButton": "Confirm Print",
+      "viewRoute": "View Route",
+      "viewPartner": "View Partner",
+      "events": {
+        "label": "Event",
+        "title": "Events",
+        "description": "Events generated by this shipment.",
+        "itemTextStatus": "Status changed to '{statusName}' at {createdAt}",
+        "itemTextAgent": "Agent '{agentName}' assigned to this shipment at {createdAt}",
+        "itemTextNoAgent": "This shipment became without an agent at {createdAt}",
+        "itemTextAddedToRoute": "This shipment was added to route Id '{routeId}' by '{userName}' at {createdAt}",
+        "itemTextAddedToRouteNoUser": "This shipment was added automatically to route Id '{routeId}' by the route generator at {createdAt}",
+        "itemTextRemovedFromRoute": "This shipment was removed from route Id '{routeId}' by '{userName}' at {createdAt}",
+        "empty": "There is no events for this shipment yet."
+      },
+      "exceptions": {
+        "title": "Route Exceptions",
+        "description": "Exceptions generated for this shipment.",
+        "active": "Active",
+        "inactive": "Inactive",
+        "itemText": "{active} exception for Route #{routeId}:\n{typeName} ({createdAt})",
+        "empty": "There is no exceptions for this shipment yet."
+      },
+      "cashInstances": {
+        "label": "Cash Instance",
+        "title": "Cash Instances",
+        "description": "Cash Instances this shipment has generated.",
+        "agent": " (Agent)",
+        "partner": " (Partner)",
+        "itemText": "{direction}: {amount}",
+        "empty": "There is no Cash Instances for this shipment yet."
+      }
+    },
+    "bulkUpload": {
+      "title": "Bulk Upload Shipments",
+      "caption": "Import all your shipments with ease using a CSV file",
+      "fileCaption": "Choose a file or drag it here.",
+      "fileInfo": "Please choose a file with .csv extension following the template file.",
+      "templateDownload": "Don't have the template? Click here to download.",
+      "uploadResult": "{totalShipments} shipments uploaded.\nClick the button bellow to save them to the database",
+      "saveButton": "Save Shipments",
+      "reupload": "Please fix the itens shown in the list above and reupload a file containing only these items",
+      "uploadSuccess": "{numberOfShipmentsCreated} shipment(s) created successfully.",
+      "uploadError": "{numberOfShipmentsFailed} shipment(s) failed to be created.",
+      "errorDetail": "{fieldName} format is not valid"
+    }
+  },
+  "fleetOwners": {
+    "fields": {
+      "name": "Name",
+      "city": "City",
+      "country": "Country",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    },
+    "list": {
+      "title": "Fleet Owners",
+      "description": "List of Fleet Owners.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Fleet Owner",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Fleet Owner {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Fleet Owner",
+        "update": "Updating Fleet Owner"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Fleet Owner",
+      "updateButton": "Save Fleet Owner"
+    },
+    "detail": {
+      "title": "Fleet Owner Detail",
+      "description": "Details of the Fleet Owner.",
+      "editButton": "Edit",
+      "agents": {
+        "label": "Agents",
+        "title": "Agents",
+        "description": "List of Agents related to this Fleet Owner."
+      }
+    }
+  },
+  "areas": {
+    "fields": {
+      "name": "Name",
+      "code": "Code",
+      "country": "Country",
+      "city": "City",
+      "centerGeoPoint": {
+        "center": "Center",
+        "lat": "Center Latitude",
+        "lng": "Center Longitude"
+      },
+      "radius": "Radius",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    },
+    "list": {
+      "title": "Areas",
+      "description": "List of Areas where shipments can be delivered.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Area",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Area {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Area",
+        "update": "Updating Area"
+      },
+      "placeholders": {
+        "name": "New York Area",
+        "code": "NY029",
+        "city": "New York",
+        "country": "United States",
+        "centerGeoPoint": {
+          "lat": "20.302931",
+          "lng": "-73.020123"
+        },
+        "radius": "30"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Area",
+      "updateButton": "Save Area"
+    },
+    "detail": {
+      "title": "Area Detail",
+      "description": "Details of the Area.",
+      "editButton": "Edit",
+      "centerGeoPoint": {
+        "title": "Location on Map",
+        "description": "Check this area location live on Google Maps."
+      },
+      "agents": {
+        "label": "Agent",
+        "title": "Agents",
+        "description": "Agents working in this area."
+      }
+    }
+  },
+  "agentTags": {
+    "fields": {
+      "name": "Name",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    },
+    "list": {
+      "title": "Agent Tags",
+      "description": "List of Agent Tags.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Agent Tag",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Agent {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Agent Tag",
+        "update": "Updating Agent Tag"
+      },
+      "placeholders": {
+        "name": "Agent Tag"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Agent Tag",
+      "updateButton": "Save Agent Tag"
+    },
+    "detail": {
+      "title": "Agent Tag Detail",
+      "description": "Details of the Agent Tag.",
+      "editButton": "Edit",
+      "routes": {
+        "label": "Route",
+        "title": "Routes",
+        "description": "Routes for this Agent Tag."
+      },
+      "agents": {
+        "label": "Agent",
+        "title": "Agents",
+        "description": "Agents for this Agent Tag."
+      }
+    }
+  },
+  "routes": {
+    "fields": {
+      "agent": "Agent",
+      "shipments": "Shipments",
+      "startDatetime": "Start Datetime",
+      "endDatetime": "End Datetime",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "bundle": "Bundle",
+      "status": "Status",
+      "value": "Value",
+      "totalShipments": "Total Shipments",
+      "totalIgnoredShipments": "Total Ignored Shipments",
+      "totalCoD": "Total Cash-On-Delivery",
+      "isOffered": "Offered",
+      "bundles": {
+        "Stock-in-Transit": "Stock-in-Transit",
+        "Bulk": "Bulk",
+        "Mix": "Mix",
+        "Directed-Bulk": "Directed-Bulk",
+        "Single": "Single"
+      },
+      "statuses": {
+        "Created": "Created",
+        "Assigned": "Assigned",
+        "Completed": "Completed",
+        "Started": "Started",
+        "Canceled": "Canceled"
+      }
+    },
+    "list": {
+      "title": "Routes",
+      "description": "List of routes agents need to follow.",
+      "ignoredShipmentsTooltip": "{count} shipments are being ignored in this route",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Route",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Route {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      },
+      "autoAssign": "Auto Assign",
+      "autoAssignSuccessAlert": {
+        "title": "All done!",
+        "text": "Click Ok to see the {numberOfRoutesAssigned} routes that have been assigned!",
+        "confirmButton": "Ok"
+      },
+      "autoAssignErrorAlert": {
+        "title": "There's something wrong...",
+        "confirmButton": "Ok"
+      },
+      "generateRoutes": "Generate Routes",
+      "routeGenerationSuccessAlert": {
+        "title": "All done!",
+        "text": "Click Ok to see the {numberOfRoutesGenerated} routes that have been generated!"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Route",
+        "update": "Updating Route"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Route",
+      "updateButton": "Save Route"
+    },
+    "detail": {
+      "title": "Route Detail",
+      "description": "Details of the Route.",
+      "editButton": "Edit",
+      "agent": {
+        "title": "Agent",
+        "description": "Agent assigned to this route."
+      },
+      "shipments": {
+        "label": "Shipment",
+        "title": "Shipments",
+        "description": "Shipments assigned to this route.",
+        "text": "{trackingId} - {name} ({date})"
+      },
+      "requiredAgentTags": {
+        "label": "Agent Tags",
+        "title": "Agent Tags",
+        "description": "Agent Tags required by this route."
+      },
+      "exceptions": {
+        "title": "Route Exceptions",
+        "description": "Exceptions generated for this route.",
+        "active": "Active",
+        "inactive": "Inactive",
+        "itemText": "{active} exception for Shipment {trackingId}: {typeName} ({createdAt})",
+        "empty": "There is no exceptions for this route yet."
+      }
+    }
+  },
+  "partners": {
+    "fields": {
+      "name": "Name",
+      "website": "Website",
+      "phone": "Phone",
+      "isActive": "Is Active",
+      "accessToken": "Access Token",
+      "maxShipmentPartsAllowed": "Max Shipment Parts Allowed",
+      "maxShipmentPartWeight": "Max Shipment Part Weight",
+      "codIsCollect": "Cod Is Collect",
+      "codFee": "Cod Fee",
+      "maxCodAmount": "Max Cod Amount",
+      "extraPartFee": "Extra Part Fee",
+      "extraWeightFee": "Extra Weight Fee",
+      "reschedulingFee": "Rescheduling Fee",
+      "returnsFee": "Returns Fee",
+      "readdressingFee": "Readdressing Fee",
+      "legacyApiKey": "Legacy Api Key",
+      "legacyApiSecret": "Legacy Api Secret",
+      "codFeeTypeId": "Cod Fee Type Id",
+      "codFeeType": "Cod Fee Type",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "codFeeTypes": {
+        "Flat": "Flat",
+        "Percentage": "Percentage"
+      },
+      "webhookUrl": "Webhook URL",
+      "legacyWebhookUrl": "Legacy Webhook URL",
+      "shippingFee": "Shipping Fee",
+      "defaultShipmentType": "Default Shipment Type",
+      "type": "Type",
+      "types": {
+        "Corporate": "Corporate",
+        "Customer": "Customer"
+      }
+    },
+    "list": {
+      "title": "Partners",
+      "description": "List of Partners.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Partner",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Partner {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Partner",
+        "update": "Updating Partner"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Partner",
+      "updateButton": "Save Partner"
+    },
+    "detail": {
+      "title": "Partner Detail",
+      "description": "Details of the Partner.",
+      "editButton": "Edit",
+      "renewAccessToken": {
+        "title": "Renew Access Token",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "OK",
+        "cancelButton": "Cancel"
+      }
+    }
+  },
+  "partnerCashInstances": {
+    "fields": {
+      "amount": "Amount",
+      "dueDatetime": "Due Date",
+      "isSettled": "Is Settled",
+      "settledAt": "Settled At",
+      "shipment": "Shipment",
+      "direction": "Direction",
+      "type": "Type",
+      "partner": "Partner",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "types": {
+        "CoD": "CoD",
+        "Fee": "Fee"
+      },
+      "directions": {
+        "Credit": "Credit",
+        "Debit": "Debit"
+      }
+    },
+    "list": {
+      "title": "Partner Cash Instances",
+      "description": "List of Partner Cash Instances.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Partner Cash Instance",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Partner Cash Instance {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Partner Cash Instance",
+        "update": "Updating Partner Cash Instance"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Partner Cash Instance",
+      "updateButton": "Save Partner Cash Instance"
+    },
+    "detail": {
+      "title": "Partner Cash Instance Detail",
+      "description": "Details of the Partner Cash Instance.",
+      "editButton": "Edit",
+      "partner": {
+        "title": "Partner",
+        "description": "Partner assigned to this Cash Instance.",
+        "viewPartner": "View Partner Details"
+      },
+      "shipment": {
+        "title": "Shipment",
+        "description": "Shipment assigned to this Cash Instance.",
+        "viewRoute": "View Route",
+        "viewShipment": "View Shipment"
+      }
+    }
+  },
+  "webhook": {
+    "fields": {
+      "webhookUrl": "Webhook URL",
+      "legacyWebhookUrl": "Legacy Webhook URL",
+      "webhookHeaders": "Webhook Headers",
+      "webhookHeader": {
+        "name": "Header Name",
+        "value": "Value"
+      }
+    },
+    "form": {
+      "title": "Webhook Configuration",
+      "caption": "Webhook Headers",
+      "actions": "Actions",
+      "editTooltip": "Edit",
+      "deleteTooltip": "Delete",
+      "addHeaderButton": "Add New Header",
+      "successMessage": "Webhook configuration saved successfully!",
+      "cancelButton": "Back to Dashboard",
+      "saveButton": "Save Configuration",
+      "deleteWarning": {
+        "title": "Delete Header {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    }
+  },
+  "partnerDiscounts": {
+    "fields": {
+      "code": "Code",
+      "isActive": "Is Active",
+      "startDatetime": "Start Datetime",
+      "endDatetime": "End Datetime",
+      "count": "Count",
+      "rate": "Rate",
+      "partner": "Partner",
+      "feeType": "Fee Type",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "feeTypes": {
+        "Flat": "Flat",
+        "Percentage": "Percentage"
+      }
+    },
+    "list": {
+      "title": "Partner Discounts",
+      "description": "List of Partner Discounts.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Partner Discount",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Partner Discount {itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Partner Discount",
+        "update": "Updating Partner Discount"
+      },
+      "cancelButton": "Cancel",
+      "createButton": "Create Partner Discount",
+      "updateButton": "Save Partner Discount"
+    },
+    "detail": {
+      "title": "Partner Discount Detail",
+      "description": "Details of the Partner Discount.",
+      "editButton": "Edit"
+    }
+  },
+  "settings": {
+    "fields": {
+      "1": "Route Offer Start Radius (kilometers)",
+      "2": "Route Offer Radius Increase Rate (kilometers)",
+      "3": "Route Offer Seconds Interval To Increase Radius",
+      "4": "Route Offer Acceptance Timeout In Seconds",
+      "5": "Route Offer Agents Notified per Interval",
+      "6": "Route Offer Empty Retry Attempts",
+      "7": "Partner Whitelist for new stack response in Proxy API",
+      "8": "Webhook Maximum Number of Attempts",
+      "9": "Webhook Seconds Interval Increment to New Attempt"
+    },
+    "form": {
+      "title": "Settings",
+      "saveButton": "Save",
+      "alert": {
+        "confirmButton": "Ok",
+        "success": {
+          "title": "All done!",
+          "message": "Saved Successfully"
+        },
+        "warning": {
+          "title": "There's something wrong..."
+        }
+      }
+    }
+  },
+  "reports": {
+    "form": {
+      "title": "Reports",
+      "description": "Generate spreadsheets based on the currently stored data.",
+      "download": "Download",
+      "filterBy": "Filter by",
+      "agentCashBalance": {
+        "title": "Agent Cash Balance",
+        "description": "Shows what all Agents owes and are owed for each day within a range, including the amounts for Cash Collected on Delivery."
+      },
+      "agentPerformance": {
+        "title": "Agent Performance (Work in Progress)",
+        "description": "Compare the agents overall performance by showing totals for Active Hours (TBA), Offered Routes (TBA), Assigned Routes and Acceptance Rate (TBA)."
+      },
+      "shipments": {
+        "title": "Shipments",
+        "description": "Shows current statuses and other important performance data from all shipments like delivery time and total elapsed time, along with cash collected on delivery and Agent commissions."
+      },
+      "dateRange": {
+        "title": "Date Range",
+        "from": "From",
+        "to": "To"
+      }
+    }
+  },
+  "supportEvents": {
+    "fields": {
+      "agent": "Agent",
+      "shipment": "Shipment",
+      "comment": "Comment",
+      "readUser": "Marked as Read by",
+      "resolvedUser": "Marked as Resolved by",
+      "readAt": "Read At",
+      "resolvedAt": "Resolved At",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "type": "Type",
+      "types": {
+        "Car broken": "Car broken",
+        "Customer Didn't Answer": "Customer Didn't Answer"
+      },
+      "status": "Status",
+      "statuses": {
+        "Created": "Created",
+        "Read": "Read",
+        "Resolved": "Resolved"
+      }
+    },
+    "list": {
+      "title": "Support Events",
+      "description": "List of Support Events triggered by Agents.",
+      "view": "View",
+      "viewTooltip": "View",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Support Event by {itemToBeDeleted}?",
+        "unknownAgent": "Unknown Agent",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      },
+      "filters": {
+        "type": "Event Type",
+        "status": "Status"
+      }
+    },
+    "detail": {
+      "title": "Support Event Detail",
+      "description": "Details of the Support Event.",
+      "saveButton": "Save",
+      "markAsReadButton": "Mark as Read",
+      "markAsResolvedButton": "Mark as Resolved",
+      "agent": {
+        "title": "Agent",
+        "description": "Agent related with this event.",
+        "viewAgent": "View Agent Details"
+      },
+      "shipment": {
+        "title": "Shipment",
+        "description": "Shipment related with this event.",
+        "viewRoute": "View Route",
+        "viewShipment": "View Shipment"
+      }
+    }
+  },
+  "routeExceptions": {
+    "fields": {
+      "route": "Route",
+      "routeName": "Route #{route}",
+      "shipment": "Shipment",
+      "active": "Active",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "type": "Type",
+      "types": {
+        "Ignore Shipment": "Ignore Shipment"
+      }
+    },
+    "list": {
+      "title": "Route Exceptions",
+      "description": "List of Exceptions generated for a Route.",
+      "view": "View",
+      "viewTooltip": "View",
+      "add": "Add Route Exception",
+      "edit": "Edit",
+      "editTooltip": "Edit",
+      "delete": "Del",
+      "deleteTooltip": "Delete",
+      "deleteWarning": {
+        "title": "Delete Route Exception for Route #{itemToBeDeleted}?",
+        "message": "You won't be able to revert this!",
+        "confirmButton": "Yes, delete it!",
+        "cancelButton": "Cancel"
+      },
+      "filters": {
+        "type": "Exception Type",
+        "status": "Status"
+      }
+    },
+    "form": {
+      "title": {
+        "create": "Creating Route Exception",
+        "update": "Updating Route Exception"
+      },
+      "selectAnRoute": "Select a Route",
+      "cancelButton": "Cancel",
+      "createButton": "Create Route Exception",
+      "updateButton": "Save Route Exception"
+    },
+    "detail": {
+      "title": "Route Exception Detail",
+      "description": "Details of the Route Exception.",
+      "route": {
+        "title": "Route",
+        "description": "Route related with this exception.",
+        "viewRoute": "View Route Details"
+      },
+      "shipment": {
+        "title": "Shipment",
+        "description": "Shipment related with this exception.",
+        "viewShipment": "View Shipment"
+      },
+      "editButton": "Edit"
+    }
+  }
+}

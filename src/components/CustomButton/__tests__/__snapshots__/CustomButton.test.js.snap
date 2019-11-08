@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomButton /> matches the snapshot 1`] = `
+<CustomButton
+  block={true}
+  fill={true}
+  pullRight={true}
+  round={true}
+  simple={true}
+>
+  <Button
+    active={false}
+    block={false}
+    bsClass="btn"
+    bsStyle="default"
+    className="btn-fill btn-simple pull-right btn-block btn-round"
+    disabled={false}
+  >
+    <button
+      className="btn-fill btn-simple pull-right btn-block btn-round btn btn-default"
+      disabled={false}
+      type="button"
+    />
+  </Button>
+</CustomButton>
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search /> matches the snapshot 1`] = `
+<div
+  className="search-component"
+>
+  <div
+    className="input-group search"
+  >
+    <input
+      className="form-control input"
+      onChange={[Function]}
+      placeholder="Hello World"
+      type="text"
+    />
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon="search"
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size={null}
+      spin={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </div>
+</div>
+`;

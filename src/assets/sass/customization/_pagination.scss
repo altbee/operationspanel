@@ -1,0 +1,22 @@
+.pagination-rounded {
+  .page-item:first-child > .page-link {
+    border-top-left-radius: 250px !important;
+    border-bottom-left-radius: 250px !important;
+  }
+  .page-item:last-child > .page-link {
+    border-top-right-radius: 250px !important;
+    border-bottom-right-radius: 250px !important;
+  }
+}
+
+div[dir="rtl"] {
+  .pagination-rounded {
+    .page-item:last-child > .page-link {
+      border-radius: 250px 0 0 250px !important;
+    }
+    .page-item:first-child > .page-link {
+      border-radius: 0 250px 250px 0 !important;
+      border-left: 0;
+    }
+  }
+}

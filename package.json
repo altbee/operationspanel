@@ -1,0 +1,105 @@
+{
+  "name": "jak-logistics-operations-team-panel",
+  "version": "1.2.0",
+  "private": true,
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "prettier": "prettier --write './**/*' || true",
+    "test": "react-scripts test",
+    "test:coverage": "npm test -- --coverage",
+    "eject": "react-scripts eject",
+    "prestart": "npm install",
+    "postinstall": "typesync"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.10",
+    "@fortawesome/free-solid-svg-icons": "^5.6.1",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "@vtex/react-csv-parse": "^3.0.2",
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "classnames": "^2.2.6",
+    "common": "file:../../../common",
+    "get-value": "^3.0.1",
+    "history": "^4.7.2",
+    "http-status": "^1.3.1",
+    "i18n-react": "^0.6.4",
+    "js-cookie": "^2.2.0",
+    "moment": "^2.23.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "qrcode.react": "^0.8.0",
+    "react": "^16.6.3",
+    "react-barcode": "^1.3.4",
+    "react-bootstrap": "^0.32.4",
+    "react-datepicker": "^1.8.0",
+    "react-dom": "^16.6.3",
+    "react-full-screen": "^0.2.3",
+    "react-google-maps": "9.4.5",
+    "react-moment": "^0.7.9",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.3",
+    "react-select": "^2.1.2",
+    "react-to-print": "^2.0.0-alpha-6",
+    "react-toastify": "^4.4.3",
+    "react-with-direction": "^1.3.0",
+    "reactstrap": "^6.5.0",
+    "sweetalert2-react": "^0.7.2",
+    "title-case": "^2.1.1",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^4.2.1",
+    "@types/classnames": "^2.2.7",
+    "@types/enzyme": "^3.1.17",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/enzyme-to-json": "^1.5.2",
+    "@types/get-value": "^3.0.0",
+    "@types/history": "^4.7.2",
+    "@types/http-status": "^0.2.30",
+    "@types/js-cookie": "^2.2.0",
+    "@types/node-sass": "^3.10.32",
+    "@types/prettier": "^1.16.0",
+    "@types/prop-types": "^15.5.8",
+    "@types/qrcode.react": "^0.8.1",
+    "@types/react": "^16.8.2",
+    "@types/react-bootstrap": "^0.32.16",
+    "@types/react-datepicker": "^1.8.0",
+    "@types/react-dom": "^16.8.0",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-select": "^2.0.11",
+    "@types/react-toastify": "^4.0.1",
+    "@types/reactstrap": "^6.4.4",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "husky": "^1.3.1",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0",
+    "typesync": "^0.4.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
