@@ -31,7 +31,7 @@
     "i18n-react": "^0.6.4",
     "js-cookie": "^2.2.0",
     "moment": "^2.23.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.6.2",
     "qrcode.react": "^0.8.0",
     "react": "^16.6.3",
